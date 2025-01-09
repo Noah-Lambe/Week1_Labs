@@ -19,13 +19,12 @@ public class LabTask4 {
 
         System.out.println(numberlist);
         double sum = 0;
-        double average = 0;
 
         for (int number : numberlist) {
             sum += number;
         }
 
-        average = sum / numberlist.size();
+        double average = sum / numberlist.size();
         System.out.printf("Average: %.2f\n", average);
 
         sc.close();
