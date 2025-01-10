@@ -40,7 +40,7 @@ public class LabTask7 {
                 default:
                     System.out.println("Invalid choice. Please select a valid option.");
             }
-            System.out.println(); // Add a blank line for readability
+            System.out.println();
         } while (choice != 3);
 
         sc.close();
